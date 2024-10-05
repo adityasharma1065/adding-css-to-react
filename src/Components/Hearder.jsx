@@ -1,8 +1,9 @@
 import "../App.css"
+import css from "../header.module.css"
 
 const Hearder = () => {
   return (
-    <div>Hearder</div>
+    <h1 className={`${css.head}`}>it is head</h1>
   )
 }
 
